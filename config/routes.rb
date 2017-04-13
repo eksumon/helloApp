@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+	root "say#hello"
+
   get 'say/hello'
 
   get 'say/goodbye'
